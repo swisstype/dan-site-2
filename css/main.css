@@ -1,39 +1,119 @@
-
 body{
     background-color: #ffffff;
 }
 
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 0.625em;
+    margin: 0 auto; 
+    padding: 3.125em;
+    justify-content: center; 
+    align-items: center;     
+}
+
+h1,h2 {
+    padding-left: 3.125em;
+    padding-right: 3.125em;
+}
+
 h1{
     text-align: center;
-    font-size: 76px;
+    font-size: 4.75em;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: auto;
     margin-top: auto;
 }
 
+h2{
+    text-align: center;
+    font-size: 2.75em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.main-nav{
+    font-size: 2.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 0.625em;
+}
+
 .Choice{
-    max-width: 800px;
+    max-width: 50em;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid black;
+    padding: 0.625em;
+    margin-top: 18.75em;
+    border-radius: 1.25em;
+    border: 0.1875em solid black;
+    font-size: 2.25em;
+
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.Hero-One {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-padding: 20px;
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-font-size: 60px
+.Jokic {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 1.5625em;
+    padding-right: 1.5625em;
+    padding-bottom: 9.375em;
 }
 
-@media (max-width: 768px)
+p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+.Ernest {
+    align-content: center;
+    text-align: center;
+    
+}
+
+a:hover {
+    color: #e2bf0b;
+    text-decoration: underline;
+}
+
+a {
+    color: #941f1f;
+}
+
+a:visited {
+    color: #201d48;
+}
+
+.Selections img {
+    width: 12.5em;
+    align-items: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 6.25em;
+    text-align: center;
+    border: #000000 0.625em;
+
+}   
+
+
+
+@media (max-width: 48em)
